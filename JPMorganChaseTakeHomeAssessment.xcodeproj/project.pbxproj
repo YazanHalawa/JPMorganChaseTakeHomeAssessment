@@ -11,11 +11,20 @@
 		AC9A465928D649460032DD02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A465828D649460032DD02 /* ContentView.swift */; };
 		AC9A465B28D649470032DD02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9A465A28D649470032DD02 /* Assets.xcassets */; };
 		AC9A465E28D649470032DD02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9A465D28D649470032DD02 /* Preview Assets.xcassets */; };
-		AC9A466028D649470032DD02 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A465F28D649470032DD02 /* Persistence.swift */; };
 		AC9A466328D649470032DD02 /* JPMorganChaseTakeHomeAssessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC9A466128D649470032DD02 /* JPMorganChaseTakeHomeAssessment.xcdatamodeld */; };
 		AC9A466D28D649470032DD02 /* JPMorganChaseTakeHomeAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A466C28D649470032DD02 /* JPMorganChaseTakeHomeAssessmentTests.swift */; };
-		AC9A467728D649470032DD02 /* JPMorganChaseTakeHomeAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A467628D649470032DD02 /* JPMorganChaseTakeHomeAssessmentUITests.swift */; };
-		AC9A467928D649470032DD02 /* JPMorganChaseTakeHomeAssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A467828D649470032DD02 /* JPMorganChaseTakeHomeAssessmentUITestsLaunchTests.swift */; };
+		AC9A469628D64A4F0032DD02 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A468C28D64A4F0032DD02 /* Logging.swift */; };
+		AC9A46A228D64C650032DD02 /* NYCOpenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A469E28D64C650032DD02 /* NYCOpenData.swift */; };
+		AC9A46A328D64C650032DD02 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A469F28D64C650032DD02 /* NetworkManager.swift */; };
+		AC9A46A428D64C650032DD02 /* ReachabilityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A46A028D64C650032DD02 /* ReachabilityMonitor.swift */; };
+		AC9A46A528D64C650032DD02 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A46A128D64C650032DD02 /* Endpoint.swift */; };
+		AC9A46A928D651070032DD02 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A46A828D651070032DD02 /* School.swift */; };
+		AC9A46AD28D660100032DD02 /* SchoolListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A46AC28D660100032DD02 /* SchoolListViewModel.swift */; };
+		AC9A46AF28D6603D0032DD02 /* SchoolListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A46AE28D6603D0032DD02 /* SchoolListView.swift */; };
+		AC9A46B328D68C800032DD02 /* SchoolDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A46B228D68C800032DD02 /* SchoolDetailsView.swift */; };
+		ACAC1A6E28D6913600A7A46D /* SATScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAC1A6D28D6913600A7A46D /* SATScores.swift */; };
+		ACAC1A7128D6924800A7A46D /* SchoolDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAC1A7028D6924800A7A46D /* SchoolDetailsViewModel.swift */; };
+		ACAC1A7628D6D01A00A7A46D /* LocationParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAC1A7528D6D01A00A7A46D /* LocationParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +50,22 @@
 		AC9A465828D649460032DD02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC9A465A28D649470032DD02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC9A465D28D649470032DD02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AC9A465F28D649470032DD02 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		AC9A466228D649470032DD02 /* JPMorganChaseTakeHomeAssessment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JPMorganChaseTakeHomeAssessment.xcdatamodel; sourceTree = "<group>"; };
 		AC9A466828D649470032DD02 /* JPMorganChaseTakeHomeAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPMorganChaseTakeHomeAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9A466C28D649470032DD02 /* JPMorganChaseTakeHomeAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPMorganChaseTakeHomeAssessmentTests.swift; sourceTree = "<group>"; };
 		AC9A467228D649470032DD02 /* JPMorganChaseTakeHomeAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPMorganChaseTakeHomeAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC9A467628D649470032DD02 /* JPMorganChaseTakeHomeAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPMorganChaseTakeHomeAssessmentUITests.swift; sourceTree = "<group>"; };
-		AC9A467828D649470032DD02 /* JPMorganChaseTakeHomeAssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPMorganChaseTakeHomeAssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC9A468C28D64A4F0032DD02 /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		AC9A469E28D64C650032DD02 /* NYCOpenData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYCOpenData.swift; sourceTree = "<group>"; };
+		AC9A469F28D64C650032DD02 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AC9A46A028D64C650032DD02 /* ReachabilityMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityMonitor.swift; sourceTree = "<group>"; };
+		AC9A46A128D64C650032DD02 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		AC9A46A828D651070032DD02 /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		AC9A46AC28D660100032DD02 /* SchoolListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListViewModel.swift; sourceTree = "<group>"; };
+		AC9A46AE28D6603D0032DD02 /* SchoolListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListView.swift; sourceTree = "<group>"; };
+		AC9A46B228D68C800032DD02 /* SchoolDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolDetailsView.swift; sourceTree = "<group>"; };
+		ACAC1A6D28D6913600A7A46D /* SATScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATScores.swift; sourceTree = "<group>"; };
+		ACAC1A7028D6924800A7A46D /* SchoolDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailsViewModel.swift; sourceTree = "<group>"; };
+		ACAC1A7528D6D01A00A7A46D /* LocationParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +98,6 @@
 			children = (
 				AC9A465528D649460032DD02 /* JPMorganChaseTakeHomeAssessment */,
 				AC9A466B28D649470032DD02 /* JPMorganChaseTakeHomeAssessmentTests */,
-				AC9A467528D649470032DD02 /* JPMorganChaseTakeHomeAssessmentUITests */,
 				AC9A465428D649460032DD02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,10 +115,12 @@
 		AC9A465528D649460032DD02 /* JPMorganChaseTakeHomeAssessment */ = {
 			isa = PBXGroup;
 			children = (
+				AC9A46A628D650C80032DD02 /* School List */,
+				AC9A469C28D64C650032DD02 /* Networking */,
+				AC9A468B28D64A4F0032DD02 /* Logging */,
 				AC9A465628D649460032DD02 /* JPMorganChaseTakeHomeAssessmentApp.swift */,
 				AC9A465828D649460032DD02 /* ContentView.swift */,
 				AC9A465A28D649470032DD02 /* Assets.xcassets */,
-				AC9A465F28D649470032DD02 /* Persistence.swift */,
 				AC9A466128D649470032DD02 /* JPMorganChaseTakeHomeAssessment.xcdatamodeld */,
 				AC9A465C28D649470032DD02 /* Preview Content */,
 			);
@@ -124,13 +143,77 @@
 			path = JPMorganChaseTakeHomeAssessmentTests;
 			sourceTree = "<group>";
 		};
-		AC9A467528D649470032DD02 /* JPMorganChaseTakeHomeAssessmentUITests */ = {
+		AC9A468B28D64A4F0032DD02 /* Logging */ = {
 			isa = PBXGroup;
 			children = (
-				AC9A467628D649470032DD02 /* JPMorganChaseTakeHomeAssessmentUITests.swift */,
-				AC9A467828D649470032DD02 /* JPMorganChaseTakeHomeAssessmentUITestsLaunchTests.swift */,
+				AC9A468C28D64A4F0032DD02 /* Logging.swift */,
 			);
-			path = JPMorganChaseTakeHomeAssessmentUITests;
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		AC9A469C28D64C650032DD02 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AC9A469D28D64C650032DD02 /* Endpoints */,
+				AC9A469F28D64C650032DD02 /* NetworkManager.swift */,
+				AC9A46A028D64C650032DD02 /* ReachabilityMonitor.swift */,
+				AC9A46A128D64C650032DD02 /* Endpoint.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		AC9A469D28D64C650032DD02 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				AC9A469E28D64C650032DD02 /* NYCOpenData.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		AC9A46A628D650C80032DD02 /* School List */ = {
+			isa = PBXGroup;
+			children = (
+				ACAC1A7428D6D00700A7A46D /* Helpers */,
+				ACAC1A7328D693FD00A7A46D /* Views */,
+				ACAC1A7228D693F400A7A46D /* ViewModels */,
+				AC9A46A728D650DF0032DD02 /* Models */,
+			);
+			path = "School List";
+			sourceTree = "<group>";
+		};
+		AC9A46A728D650DF0032DD02 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC9A46A828D651070032DD02 /* School.swift */,
+				ACAC1A6D28D6913600A7A46D /* SATScores.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ACAC1A7228D693F400A7A46D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AC9A46AC28D660100032DD02 /* SchoolListViewModel.swift */,
+				ACAC1A7028D6924800A7A46D /* SchoolDetailsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ACAC1A7328D693FD00A7A46D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC9A46AE28D6603D0032DD02 /* SchoolListView.swift */,
+				AC9A46B228D68C800032DD02 /* SchoolDetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACAC1A7428D6D00700A7A46D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				ACAC1A7528D6D01A00A7A46D /* LocationParser.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +346,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC9A466028D649470032DD02 /* Persistence.swift in Sources */,
+				AC9A46AD28D660100032DD02 /* SchoolListViewModel.swift in Sources */,
+				AC9A46AF28D6603D0032DD02 /* SchoolListView.swift in Sources */,
+				AC9A469628D64A4F0032DD02 /* Logging.swift in Sources */,
+				ACAC1A7628D6D01A00A7A46D /* LocationParser.swift in Sources */,
+				AC9A46A228D64C650032DD02 /* NYCOpenData.swift in Sources */,
 				AC9A465928D649460032DD02 /* ContentView.swift in Sources */,
+				AC9A46A528D64C650032DD02 /* Endpoint.swift in Sources */,
+				AC9A46A328D64C650032DD02 /* NetworkManager.swift in Sources */,
+				AC9A46B328D68C800032DD02 /* SchoolDetailsView.swift in Sources */,
 				AC9A466328D649470032DD02 /* JPMorganChaseTakeHomeAssessment.xcdatamodeld in Sources */,
+				AC9A46A928D651070032DD02 /* School.swift in Sources */,
 				AC9A465728D649460032DD02 /* JPMorganChaseTakeHomeAssessmentApp.swift in Sources */,
+				ACAC1A7128D6924800A7A46D /* SchoolDetailsViewModel.swift in Sources */,
+				ACAC1A6E28D6913600A7A46D /* SATScores.swift in Sources */,
+				AC9A46A428D64C650032DD02 /* ReachabilityMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +376,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC9A467728D649470032DD02 /* JPMorganChaseTakeHomeAssessmentUITests.swift in Sources */,
-				AC9A467928D649470032DD02 /* JPMorganChaseTakeHomeAssessmentUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

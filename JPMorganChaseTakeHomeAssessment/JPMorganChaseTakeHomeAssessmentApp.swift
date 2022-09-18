@@ -9,12 +9,14 @@ import SwiftUI
 
 @main
 struct JPMorganChaseTakeHomeAssessmentApp: App {
-    let persistenceController = PersistenceController.shared
+    
+    init() {
+        NetworkMonitor.shared.startMonitoring()
+    }
 
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
